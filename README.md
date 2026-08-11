@@ -1,53 +1,60 @@
-HTTP Header Analyzer
+# HTTP Header Analyzer
 
 A Python-based web security tool that analyzes HTTP security headers, HTTPS behavior, CSP directives, and cookie security attributes. It provides security findings, recommendations, and a weighted security score.
 
-Features
-HTTP status code analysis
-HTTPS and redirect analysis
-HSTS validation
-Content-Security-Policy analysis
-CSP directive parsing
-X-Frame-Options validation
-X-Content-Type-Options validation
-Referrer-Policy validation
-Permissions-Policy detection
-Cookie security analysis
-Secure cookie detection
-HttpOnly cookie detection
-SameSite analysis
-Security recommendations
-Weighted security score
-Security rating
-CLI URL input
-JSON report export
-Network and URL error handling
-Security Headers Analyzed
-Header	Purpose
-Strict-Transport-Security	Enforces HTTPS connections
-Content-Security-Policy	Controls allowed content sources
-X-Frame-Options	Helps protect against clickjacking
-X-Content-Type-Options	Helps prevent MIME sniffing
-Referrer-Policy	Controls referrer information
-Permissions-Policy	Controls access to browser features
-Cookie Security
+## Features
+
+- HTTP status code analysis
+- HTTPS and redirect analysis
+- HSTS validation
+- Content-Security-Policy analysis
+- CSP directive parsing
+- X-Frame-Options validation
+- X-Content-Type-Options validation
+- Referrer-Policy validation
+- Permissions-Policy detection
+- Cookie security analysis
+- Secure cookie detection
+- HttpOnly cookie detection
+- SameSite analysis
+- Security recommendations
+- Weighted security score
+- Security rating
+- CLI URL input
+- JSON report export
+- Network and URL error handling
+
+## Security Headers Analyzed
+
+| Header | Purpose |
+|---|---|
+| `Strict-Transport-Security` | Enforces HTTPS connections |
+| `Content-Security-Policy` | Controls allowed content sources |
+| `X-Frame-Options` | Helps protect against clickjacking |
+| `X-Content-Type-Options` | Helps prevent MIME sniffing |
+| `Referrer-Policy` | Controls referrer information |
+| `Permissions-Policy` | Controls access to browser features |
+
+## Cookie Security
 
 The analyzer checks:
 
-Secure
-HttpOnly
-SameSite
+- `Secure`
+- `HttpOnly`
+- `SameSite`
 
 It also identifies the actual SameSite value:
 
-Strict
-Lax
-None
-Missing
-Installation
+- `Strict`
+- `Lax`
+- `None`
+- `Missing`
+
+## Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/Naitik-coding/http-header-analyzer.git
 cd http-header-analyzer
 
@@ -137,6 +144,6 @@ Additional security headers
 Automated test suite
 Better cookie risk classification
 Integration with security dashboards
-
 Author
+
 Naitik Jain
