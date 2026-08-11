@@ -89,7 +89,7 @@ Security score
 Security rating
 Security header findings
 Cookie analysis
-```
+
 Example Output
 ```
 =======================================================
@@ -126,19 +126,22 @@ http-header-analyzer/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 Technologies
+```
 Python
 Requests
 HTTP/HTTPS
 Web Security
+```
 Disclaimer
 ```
 This project is intended for educational purposes and authorized security testing only.
 
 Only analyze websites and systems that you own or have explicit permission to test.
-
+```
 Future Improvements
-
+```
 Possible future improvements include:
 
 HTML report generation
@@ -147,6 +150,6 @@ Additional security headers
 Automated test suite
 Better cookie risk classification
 Integration with security dashboards
-
+```
 Author - 
 Naitik Jain
