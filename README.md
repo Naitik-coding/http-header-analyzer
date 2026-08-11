@@ -62,7 +62,9 @@ cd http-header-analyzer
 Install the required dependency:
 ```
 py -m pip install -r requirements.txt
+```
 Usage
+```
 Analyze a Target
 py analyzer.py --url https://example.com
 ```
