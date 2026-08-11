@@ -137,6 +137,6 @@ Additional security headers
 Automated test suite
 Better cookie risk classification
 Integration with security dashboards
-Author
 
+Author
 Naitik Jain
